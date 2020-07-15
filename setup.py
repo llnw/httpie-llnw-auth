@@ -2,13 +2,14 @@ from setuptools import setup
 
 setup(
     name='httpie-llnw-auth',
-    version='1.0.0',
+    version='1.0.1',
     description='LLNW header-based auth plugin for HTTPie.',
     long_description=open('README.md').read().strip(),
     long_description_content_type='text/markdown',
     author='Limelight Networks',
     author_email='opensource@llnw.com',
     url='https://github.com/llnw/httpie-llnw-auth',
+    license='Apache License 2.0',
     py_modules=['httpie_llnw_auth'],
     entry_points={
         'httpie.plugins.auth.v1': [
