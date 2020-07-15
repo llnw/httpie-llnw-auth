@@ -5,6 +5,7 @@ setup(
     version='1.0.0',
     description='LLNW header-based auth plugin for HTTPie.',
     long_description=open('README.md').read().strip(),
+    long_description_content_type='text/markdown',
     author='Limelight Networks',
     author_email='opensource@llnw.com',
     url='https://github.com/llnw/httpie-llnw-auth',
